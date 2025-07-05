@@ -13,7 +13,12 @@ Once the correct credentials are entered, the page redirects to [Flipkart.com](h
 
 > As a visual reference, I looked at [https://www.saucedemo.com](https://www.saucedemo.com), but I did **not use any code** or content from it.
 
----
+## Development Details:
+I created the login page using HTML and styled it with CSS, writing all the code manually in Visual Studio Code (VS Code).
+For testing automation, I used Python along with Selenium WebDriver, running tests on the Microsoft Edge browser.
+The test script waits for manual user input to enter the username and password, which helps simulate real login behavior more realistically.
+
+This approach helped me learn how to integrate front-end web development with automated testing using Python.
 
 ## Features:
 
