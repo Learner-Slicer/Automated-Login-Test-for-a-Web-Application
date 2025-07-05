@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .login-container {
+      margin-top: 100px;
+      display: inline-block;
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 250px;
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .hint-box {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px;
+      margin-top: 30px;
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px;
+      text-align: left;
+      font-size: 16px;
+    }
+
+    .hint-box h3 {
+      margin-top: 0;
+    }
+
+    .hint-table {
+      width: 100%;
+    }
+
+    .hint-table td {
+      padding: 5px 10px;
+    }
+
+    .hint-table td:first-child {
+      width: 60%;
+    }
+
+    .title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="title">Login</div>
+    <form action="success.html" method="POST">
+      <input type="text" id="username" name="username" placeholder="Enter Username"><br>
+      <input type="password" id="password" name="password" placeholder="Enter Password"><br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div class="hint-box">
+    <h3>Hint: Use one of these usernames and the password shown</h3>
+    <table class="hint-table">
+      <tr>
+        <td><strong>Usernames:</strong></td>
+        <td><strong>Password:</strong></td>
+      </tr>
+      <tr><td>student101</td><td rowspan="6">pass123</td></tr>
+      <tr><td>learner02</td></tr>
+      <tr><td>testuser03</td></tr>
+      <tr><td>guest04</td></tr>
+      <tr><td>demo05</td></tr>
+      <tr><td>trial06</td></tr>
+    </table>
+  </div>
+
+</body>
+</html>
