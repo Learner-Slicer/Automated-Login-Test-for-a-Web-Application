@@ -49,14 +49,15 @@ Prodigy-Task3-Login-Test/
 
 ## Valid Credentials:
 These are shown on the page itself too, but here they are again:
-
-# Username  # Password
-student101  pass123
-learner02  pass123
-testuser03  pass123
-guest04  pass123
-demo05  pass123
-trial06  pass123
+# Username:
+student101
+learner02
+testuser03
+guest04
+demo05
+trial06
+# Password:
+pass123
 
 ## Testing Strategy:
 The test is mostly manual, but still automated in terms of checking the outcome.
